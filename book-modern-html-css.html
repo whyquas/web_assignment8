@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern HTML & CSS — Online Library</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span>Online Library</span>
+        </a>
+        <label for="nav-toggle" class="hamb" aria-label="Toggle navigation"><span></span><span></span><span></span></label>
+        <input type="checkbox" id="nav-toggle" aria-hidden="true">
+        <nav class="nav-links" aria-label="Primary">
+          <a href="catalog.html">Catalog</a>
+          <a href="membership.html">Membership</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+          <a href="account.html">Account</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container">
+
+  <nav aria-label="Breadcrumb" class="muted"><a href="catalog.html">Catalog</a> › Modern HTML & CSS</nav>
+  <div class="two-col">
+    <article class="card">
+      <img src="https://picsum.photos/seed/book1/1200/650" alt="Modern HTML & CSS cover" style="border-radius:10px">
+      <h1>Modern HTML & CSS</h1>
+      <p class="muted">Semantic structure, responsive typography, and scalable CSS architecture.</p>
+      <hr>
+      <h2>Table of Contents</h2>
+      <details open><summary>1. Semantic HTML</summary><p class="muted">Landmarks, forms, accessibility, microdata.</p></details>
+      <details><summary>2. Modern CSS</summary><p class="muted">Flexbox, Grid, variables, clamp, container queries.</p></details>
+      <details><summary>3. Patterns</summary><p class="muted">BEM, utility classes, theming, dark mode.</p></details>
+      <hr>
+      <p><a class="btn" href="#">Read online</a><a class="btn alt" href="#">Download PDF</a></p>
+    </article>
+    <aside class="card sticky">
+      <h2>Book info</h2>
+      <p class="muted">Level: Beginner • Year: 2024 • Format: PDF</p>
+      <p><span class="badge">HTML</span> <span class="badge">CSS</span> <span class="badge">UI</span></p>
+      <hr>
+      <h3>Author</h3>
+      <p><strong>Ava Collins</strong><br><span class="muted">Frontend Engineer & Writer</span></p>
+      <hr>
+      <h3>Availability</h3>
+      <ul>
+        <li>Read online: <strong>Yes</strong></li>
+        <li>Download: <strong>Included</strong></li>
+        <li>Print: <strong>Allowed</strong></li>
+      </ul>
+    </aside>
+  </div>
+
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3>Online Library</h3>
+            <p class="muted">Read anywhere. Discover new knowledge.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <p><a href="catalog.html">Catalog</a><br><a href="membership.html">Membership</a></p>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <p><a href="about.html">About</a><br><a href="privacy.html">Privacy</a><br><a href="terms.html">Terms</a></p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p><a href="faq.html">FAQ</a><br><a href="contact.html">Contact us</a></p>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:1rem">© 2025 Online Library — Daniyar and Kasymbek</p>
+      </div>
+    </footer>
+  </body>
+</html>

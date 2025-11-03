@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Algorithms for Readers",
+    "cover": "https://picsum.photos/seed/bookx1/800/500",
+    "desc": "From search to recommendation: algorithms behind modern online libraries.",
+    "tags": [
+      "Algorithms",
+      "CS"
+    ],
+    "level": "Intermediate",
+    "year": 2022,
+    "format": "EPUB",
+    "slug": "book-algorithms-readers.html"
+  },
+  {
+    "title": "Effective Research Workflow",
+    "cover": "https://picsum.photos/seed/bookx2/800/500",
+    "desc": "Note‑taking, citation tools, and knowledge graphs for voracious readers.",
+    "tags": [
+      "Productivity",
+      "Research"
+    ],
+    "level": "Beginner",
+    "year": 2021,
+    "format": "PDF",
+    "slug": "#"
+  },
+  {
+    "title": "Curating Digital Shelves",
+    "cover": "https://picsum.photos/seed/bookx3/800/500",
+    "desc": "Designing category systems and faceted search for catalogs.",
+    "tags": [
+      "UX",
+      "IA"
+    ],
+    "level": "Advanced",
+    "year": 2020,
+    "format": "PDF",
+    "slug": "#"
+  }
+]

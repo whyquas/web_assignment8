@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalog — Online Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span>Online Library</span>
+        </a>
+        <label for="nav-toggle" class="hamb" aria-label="Toggle navigation"><span></span><span></span><span></span></label>
+        <input type="checkbox" id="nav-toggle" aria-hidden="true">
+        <nav class="nav-links" aria-label="Primary">
+          <a href="catalog.html">Catalog</a>
+          <a href="membership.html">Membership</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+          <a href="account.html">Account</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container">
+
+  <h1 style="color: white">Catalog</h1>
+
+  <div class="catalog-toolbar">
+    <input type="checkbox" id="f-html">
+    <label for="f-html" class="filter">HTML</label>
+    <input type="checkbox" id="f-css">
+    <label for="f-css" class="filter">CSS</label>
+    <input type="checkbox" id="f-ui">
+    <label for="f-ui" class="filter">UI/UX</label>
+    <input type="checkbox" id="f-ml">
+    <label for="f-ml" class="filter">Machine Learning</label>
+  </div>
+
+  <div class="catalog">
+    <article class="book" data-tags="html css ui">
+      <img class="cover" src="https://picsum.photos/seed/book1/800/500" alt="Modern HTML & CSS">
+      <div class="body">
+        <h2><a href="book-modern-html-css.html">Modern HTML & CSS</a></h2>
+        <p class="muted">Semantic HTML, modern CSS features, and scalable patterns.</p>
+        <div class="meta">
+          <span class="badge">Beginner</span>
+          <span class="badge">2024</span>
+          <span class="badge">PDF</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="book" data-tags="css ui">
+      <img class="cover" src="https://picsum.photos/seed/book2/800/500" alt="Design Systems">
+      <div class="body">
+        <h2><a href="book-design-systems.html">Design Systems</a></h2>
+        <p class="muted">Build consistent, accessible, and scalable UI libraries.</p>
+        <div class="meta">
+          <span class="badge">Intermediate</span>
+          <span class="badge">2023</span>
+          <span class="badge">PDF</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="book" data-tags="ml ui">
+      <img class="cover" src="https://picsum.photos/seed/book3/800/500" alt="Practical ML">
+      <div class="body">
+        <h2><a href="book-practical-ml.html">Practical ML</a></h2>
+        <p class="muted">From data prep to evaluation, an end‑to‑end guide.</p>
+        <div class="meta">
+          <span class="badge">Advanced</span>
+          <span class="badge">2022</span>
+          <span class="badge">PDF</span>
+        </div>
+      </div>
+    </article>
+  </div>
+
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3>Online Library</h3>
+            <p class="muted">Read anywhere. Discover new knowledge.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <p><a href="catalog.html">Catalog</a><br><a href="membership.html">Membership</a></p>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <p><a href="about.html">About</a><br><a href="privacy.html">Privacy</a><br><a href="terms.html">Terms</a></p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p><a href="faq.html">FAQ</a><br><a href="contact.html">Contact us</a></p>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:1rem">© 2025 Online Library — Daniyar and Kasymbek</p>
+      </div>
+    </footer>
+  </body>
+</html>
